@@ -1,0 +1,165 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+/*
+Crear container
+*/
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.col-1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.uno {
+  object-fit: cover;
+  	width: 100%;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+}
+
+.uno:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.uno {
+	height: 30em; 
+}
+
+.row-1 {
+	text-align: right;
+	background-color: #ff875f;
+	color: #fff;
+}
+
+.row-1 h1 {
+	font-size: 3em;
+	margin-bottom: 0.5em;
+}
+
+.row-1 h2 {
+	font-size: 1em;
+}
+
+.cuadrado h1 {
+  margin: 1em;
+}
+
+.dos{
+  object-fit: cover;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.dos:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.dos {
+  height: 35em; 
+}
+
+.row-3 {
+  text-align: right;
+  background-color: #ff875f;
+}
+
+.row-4 {
+  text-align: center;
+  background-color: #93F082;
+  color: #fff;
+}
+
+.imagen1 {
+  border color: #fff;
+}
+
+.imagen2
+.imagen3
+.imagen4
+	
